@@ -3,7 +3,7 @@ import qrcode
 # create a QR code instance
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
 
-# add data to the QR code
+# add data to the QR code /add any link u want to apply in qr 
 data = "https://www.youtube.com/watch?v=1mGi7zaNuFM"
 qr.add_data(data)
 qr.make(fit=True)
