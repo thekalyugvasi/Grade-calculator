@@ -27,7 +27,8 @@ def simulate_free_fall(initial_height, total_time, time_step):
             break
 
     return time[:i + 1], position[:i + 1]
-
+    
+#plot the graph and charts 
 def plot_simulation(time, position):
     plt.plot(time, position)
     plt.title('Free Fall Simulation')
